@@ -21,6 +21,17 @@ h1,h2,h3,p,figure,ul {
 *{
     box-sizing: border-box;
 }
+/*SCROLLBAR*/
+/* scrollbar c'est ici */
+*{
+    /* ff */
+    scrollbar-width: thin;
+    scrollbar-color: var(--letter-color) var(--bgcolor-header);
+}
+/* webkit */
+*::-webkit-scrollbar{
+    width: .9rem;
+}
 
 /*THEME*/
 
@@ -88,6 +99,9 @@ footer *{
     color: var(--letter-color);
     line-height: 4.5rem;
 }
+ion-icon {
+    vertical-align: -0.4rem;
+}
 
 
 
@@ -96,3 +110,4 @@ footer *{
 header{
     background-color: var(--bgcolor-header);
 }
+
