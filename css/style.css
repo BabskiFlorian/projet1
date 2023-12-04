@@ -1,0 +1,86 @@
+/*RESET*/
+
+html {
+    font-size: 62.5%;/*16 px*62.5% = 10 rem */
+}
+body{
+    font: 1.6rem sans-serif;
+    margin: 0;
+    letter-spacing: 0.1rem /*1px*/;
+    line-height: 1.6;
+    background-color: var(--theme-bg-color);
+}
+h1,h2,h3,p,figure,ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-weight: normal;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+/*THEME*/
+
+
+:root {
+    --theme-bg-color: rgba(42,52,54,1.0);
+    --bgcolor-header:#222;
+    --bg-list: rgba(223, 230, 233,1.0);
+    --letter-color: #fff;
+    --letter-color-default: #222;
+}
+header{
+    background-color: var(--letter-color );
+    margin-bottom: 5rem;
+}
+header > h1{
+    color: #fff;
+    text-align: center;
+    line-height: 6.5rem;
+    margin-bottom: 5rem;
+
+}
+
+figure{
+    max-width: 90rem;
+    margin: 0 auto;
+    border: solid, .1rem #f5ebeb  ;
+    padding: 2rem;
+    background-color: var(--letter-color);
+    ;
+}
+
+figure > img {
+    opacity: .5rem;
+    width: 100%;
+    display: inline-block;
+}   
+.gris {
+    color: var(--letter-color-default);
+}
+figure figcaption ul{
+    line-height: 4.5rem;
+}
+figure figcaption ul li {
+    padding: 0.5rem;
+}
+figure figcaption ul li:nth-child(2n + 2 ){ /*1 sur 2 à partir du premier*/
+    background-color: var(--bg-list);
+}
+
+/*description du film*/
+details{
+    background-color: var(--bg-list);
+    line-height: 3rem;
+    padding-left: .5rem;
+}
+
+
+
+/*HEADER*/
+
+header{
+    background-color: var(--bgcolor-header);
+}
