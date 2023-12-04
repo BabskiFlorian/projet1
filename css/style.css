@@ -1,14 +1,15 @@
 /*RESET*/
-
-html {
-    font-size: 62.5%;/*16 px*62.5% = 10 rem */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Karla:wght@300&display=swap');
+html {    font-size: 62.5%;/*16 px62.5% = 10 rem; */
 }
+
 body{
-    font: 1.6rem sans-serif;
+    font: 1.6rem "Exo 2", sans-serif;
     margin: 0;
     letter-spacing: 0.1rem /*1px*/;
     line-height: 1.6;
     background-color: var(--theme-bg-color);
+    
 }
 h1,h2,h3,p,figure,ul {
     margin: 0;
@@ -73,8 +74,19 @@ figure figcaption ul li:nth-child(2n + 2 ){ /*1 sur 2 à partir du premier*/
 /*description du film*/
 details{
     background-color: var(--bg-list);
+}
+details summary{
     line-height: 3rem;
-    padding-left: .5rem;
+    padding: .5rem;
+}
+details p{
+    padding: .5rem;
+}
+/*footer*/
+footer *{
+    text-align: center;
+    color: var(--letter-color);
+    line-height: 4.5rem;
 }
 
 
