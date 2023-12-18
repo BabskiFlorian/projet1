@@ -1,5 +1,5 @@
 /*RESET*/
-@import url("./reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Karla:wght@300&display=swap');
 html {    font-size: 62.5%;/*16 px62.5% = 10 rem; */
 }
 
@@ -111,13 +111,3 @@ header{
     background-color: var(--bgcolor-header);
 }
 
-/*media queries*/
-
-@media  screen and  (max-width: 100rem){
-    figure figcaption ul{
-        line-height: 3.5rem;
-    }
-    details p {
-        text-align: justify;
-    }
-}
