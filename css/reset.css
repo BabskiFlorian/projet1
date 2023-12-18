@@ -1,6 +1,10 @@
 /*RESET*/
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Karla:wght@300&display=swap');
-html {    font-size: 62.5%;/*16 px62.5% = 10 rem; */
+html {    
+    font-size: 62.5%;/*16 px62.5% = 10 rem; */
+    background: url(../asset/upload_15a811f26eb43bb456b6c79a1e24c9d2.jpg)no-repeat fixed center center / cover;
+    background:linear-gradient(to top,rgba(0,0,0,.6) 50%,rgba(0,0,0,.6) 50%),
+
 }
 
 body{
@@ -8,8 +12,8 @@ body{
     margin: 0;
     letter-spacing: 0.1rem /*1px*/;
     line-height: 1.6;
-    background-color: var(--theme-bg-color);
-    
+    /*background-color: var(--theme-bg-color);
+*/    
 }
 h1,h2,h3,p,figure,ul {
     margin: 0;
